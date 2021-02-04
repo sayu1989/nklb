@@ -90,6 +90,11 @@ span {
     line-height: 160%;
 }
 
+a {
+    color: #272121;
+    text-decoration: none;
+}
+
 /* original */
 
 .div-gkecw {
@@ -127,7 +132,7 @@ span {
     justify-content: space-between;
     width: 100%;
     background-color: #ffffff;
-    box-shadow: 0px 4px 12px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 1px 12px 0 rgba(0, 0, 0, 0.02);
     position: fixed;
     top: 0px;
 }
@@ -148,7 +153,7 @@ span {
     display: flex;
     flex-direction: row;
     margin-left: 40px;
-    column-gap: 20px;
+    column-gap: 16px;
     align-items: center;
     justify-content: center;
 }
@@ -164,15 +169,19 @@ span {
     background-color: #ff6d59;
     color: #ffffff;
     border-radius: 5px;
-    padding-top: 8px;
-    padding-right: 12px;
-    padding-bottom: 8px;
-    padding-left: 12px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     font-weight: 700;
+}
+
+.button a{
+    color: #ffffff;
+    padding-top: 8px;
+    padding-right: 12px;
+    padding-bottom: 8px;
+    padding-left: 12px;
 }
 
 .div-ku8gu {
@@ -263,7 +272,7 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .section-zdbq2 {
@@ -460,6 +469,7 @@ div-pt63t {
     background-image: url('https://relate-av4mfw.s3.us-east-2.amazonaws.com/6013d61cec7a7e189f3e47a1/feature.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .section-qczbq {
@@ -624,7 +634,7 @@ div-pt63t {
     margin-top: 0px;
     margin-right: auto;
     margin-left: 0%;
-    padding-top: 20px;
+    padding: 20px;
 }
 
 .font-pp {
@@ -1032,10 +1042,20 @@ div-pt63t {
 .div-jajx7 {
     width: 35%;
     height: 800px;
+    background-position: center;
     background-image: url('https://relate-av4mfw.s3.us-east-2.amazonaws.com/6013d61cec7a7e189f3e47a1/com_cat1.jpg');
 }
 
+.sp-menu-wrap{
+    display: none;
+}
+
 @media (max-width: 1024px) {
+
+    .div-y87q1{
+        display: none;
+    }
+
     .div-t7tnx {
         padding-top: 60px;
         padding-right: 0px;
@@ -1124,10 +1144,6 @@ div-pt63t {
         width: 45%;
     }
 
-    .div-h6gs9 {
-        width: 50%;
-    }
-
     .section-yc0x3 {
         padding-top: 50px;
     }
@@ -1199,6 +1215,10 @@ div-pt63t {
     .div-ho9lf {
         position: relative;
     }
+
+    .div-t7vr2{
+        margin-left: 15px;
+    }
 }
 
 .div-t7tnx {
@@ -1265,7 +1285,7 @@ div-pt63t {
     }
 
     .section-vl4tw {
-        padding: 8%;
+        padding: 3% 8%;
         position: relative;
     }
 
@@ -1293,6 +1313,7 @@ div-pt63t {
     .div-8s8sj {
         position: static;
         margin-top: -30px;
+        display: none;
     }
 
     .paragraph-1wul5 {
@@ -1437,7 +1458,7 @@ div-pt63t {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 520px) {
     .div-ku8gu {
         display: none;
     }
@@ -1452,7 +1473,7 @@ div-pt63t {
     }
 
     .div-rhldt {
-        padding: 16px;
+        padding: 12px;
     }
 
     .div-t7tnx {
@@ -1475,7 +1496,7 @@ div-pt63t {
 
     .section-vq521 {
         top: 0px;
-        margin-top: 68px;
+        margin-top: 30px;
         margin-right: 0px;
         margin-bottom: 0px;
         margin-left: 0px;
@@ -1483,8 +1504,8 @@ div-pt63t {
     }
 
     .div-c6y47 {
-        width: 70%;
-        margin-top: 30px;
+        width: 80%;
+        max-width: 350px;
     }
 
     .section-zdbq2 {
@@ -1646,5 +1667,140 @@ div-pt63t {
 
     .div-img1 {
         margin-top: -20px;
+    }
+
+    .menu-btn {
+        position: fixed;
+        display: flex;
+        top: 0;
+        right: 0;
+        height: 60px;
+        width: 60px;
+        justify-content: center;
+        align-items: center;
+        z-index: 90;
+    }
+    .menu-btn span,
+    .menu-btn span:before,
+    .menu-btn span:after {
+        content: '';
+        display: block;
+        height: 2px;
+        width: 25px;
+        background-color: #222222;
+        position: absolute;
+    }
+    .menu-btn span:before {
+        bottom: 8px;
+    }
+    .menu-btn span:after {
+        top: 8px;
+    }
+    #menu-btn-check:checked ~ .menu-btn span {
+        background-color: rgba(255, 255, 255, 0);/*メニューオープン時は真ん中の線を透明にする*/
+    }
+    #menu-btn-check:checked ~ .menu-btn span::before {
+        bottom: 0;
+        transform: rotate(45deg);
+        background: #ffffff;
+    }
+    #menu-btn-check:checked ~ .menu-btn span::after {
+        top: 0;
+        transform: rotate(-45deg);
+        background: #ffffff;
+    }
+    #menu-btn-check {
+        display: none;
+    }
+    .sp-menu-wrap{
+        top: 0;
+        position: fixed;
+        display: block;
+    }
+    .sp-menu {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 80;
+    }
+    .sp-menu {
+        padding: 70px 10px 0;
+    }
+    .sp-menu li {
+        list-style: none;
+    }
+    .sp-menu li a {
+        display: block;
+        width: 100%;
+        font-size: 15px;
+        box-sizing: border-box;
+        color:#ffffff;
+        text-decoration: none;
+        padding: 9px 15px 10px 10px;
+        position: relative;
+        border-bottom: 1px solid #fff;
+    }
+    .sp-menu {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: -1vh;/*leftの値を変更してメニューを画面外へ*/
+        z-index: 80;
+        background-color: #ff6d59;
+        transition: all 0.4s;
+        padding-top: 50px;
+        opacity: 0;
+    }
+    #menu-btn-check:checked ~ .sp-menu {
+        top: 0;
+        opacity: 1;
+        transition: all 0.2s;
+    }
+
+    .div-8s8sj{
+        display: none;
+    }
+
+    .div-pb1i7{
+        margin-bottom: 0;
+    }
+    
+    .span-foqm5{
+        display: none;
+    }
+
+    .heading2-wgh8t{
+        font-size: 32px;
+    }
+
+    .div-rhldt{
+        background: transparent;
+        box-shadow: none;
+    }
+
+    .div-h6gs9{
+        width: 100%;
+    }
+
+    .div-dr90h{
+        width: 100%;
+    }
+
+    .div-txs7x{
+        border-radius: 0;
+        margin-right: 30px;
+    }
+
+    .div-oyw8y{
+        margin: 0 auto;
+        width: 95%;
+    }
+
+    .div-jajx7{
+        display: none;
     }
 }
