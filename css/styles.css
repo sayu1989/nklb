@@ -696,6 +696,7 @@ div-pt63t {
 .case-other-text {
     width: 100%;
     margin-top: 0px;
+    padding: 40px;
 }
 
 .case-other-img {
@@ -719,7 +720,6 @@ div-pt63t {
     flex-direction: row;
     column-gap: 4px;
     background-color: #ffffff;
-    padding: 30px;
     border-width: 10px;
     border-color: #fcf9f2;
     box-shadow: 0px 10px 40px 0 rgba(0, 0, 0, 0.15);
