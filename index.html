@@ -12,17 +12,14 @@
     <script>
         jQuery(function($){
             
-            if($("#menu-btn-check").prop("checked")) {
-               $(".sp-menu li").on('click', function(){
-                  $(".sp-menu").css({'top':'-100vh','opacity':'0'});
-                  $("#menu-btn-check").removeAttr("checked").prop("checked", false).change();
-               });
-            } else {
-               $(".sp-menu li").on('click', function(){
-                  $(".sp-menu").css({'top':'-100vh','opacity':'0'});
+            $(".sp-menu li").on('click', function(){
+                if($("#menu-btn-check").prop("checked")) {
+                      $(".sp-menu").css({'top':'-100vh','opacity':'0'});
+                      $("#menu-btn-check").removeAttr("checked").prop("checked", false).change();
+                } else {
                   $("#menu-btn-check").attr("checked", true).prop("checked", true).change();
-               });
-            }
+                }
+            });
             
         });
     </script>
