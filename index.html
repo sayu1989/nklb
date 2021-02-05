@@ -13,7 +13,7 @@
         jQuery(function($){
            $(".sp-menu li").on('click', function(){
               $(".sp-menu").css({'top':'-1vh','opacity':'0'});
-              $("#menu-btn-check").prop('checked', false);
+              $("#menu-btn-check").removeAttr("checked").prop("checked", false).change();
             });
             
         });
