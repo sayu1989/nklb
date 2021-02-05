@@ -1010,7 +1010,7 @@ div-pt63t {
     background-size: cover;
     width: 150px;
     border-radius: 300px;
-    background-image: url('https://relate-av4mfw.s3.us-east-2.amazonaws.com/6013d61cec7a7e189f3e47a1/charles-deluvio-Lks7vei-eAg-unsplash.jpg');
+    background-image: url('/images/case1_designer.jpg');
 }
 
 .image-ncnuc {
@@ -1035,7 +1035,7 @@ div-pt63t {
 }
 
 .case-img2 {
-    background-image: url('https://relate-av4mfw.s3.us-east-2.amazonaws.com/6013d61cec7a7e189f3e47a1/IMG_7391.JPG');
+    background-image: url('/images/IMG_7391.JPG');
 }
 
 .div-jajx7 {
@@ -1043,6 +1043,10 @@ div-pt63t {
     height: 800px;
     background-position: center;
     background-image: url('https://relate-av4mfw.s3.us-east-2.amazonaws.com/6013d61cec7a7e189f3e47a1/com_cat1.jpg');
+}
+
+.case-img3 {
+    background-image: url('/images/case3.jpg');
 }
 
 .sp-menu-wrap{
