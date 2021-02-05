@@ -1811,7 +1811,7 @@ div-pt63t {
         flex-direction: column;
     }
     
-    .case-other-item{
+    .case-other-item .case-other{
         width: 100%;
     }    
 }
