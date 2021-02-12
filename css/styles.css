@@ -996,7 +996,7 @@ div-pt63t {
 .div-chqcl {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
     padding-top: 20px;
     border-width: 1px;
