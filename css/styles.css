@@ -267,7 +267,7 @@ body {
 }
 
 .section-vq521 {
-    background-image: url('https://relate-av4mfw.s3.us-east-2.amazonaws.com/6013d61cec7a7e189f3e47a1/top_bg.png');
+    background-image: url('../images/top_bg.png');
     background-position-y: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -354,7 +354,7 @@ body {
     bottom: 0px;
     left: 0px;
     width: 50%;
-    background-image: url('https://relate-av4mfw.s3.us-east-2.amazonaws.com/6013d61cec7a7e189f3e47a1/Mask%20Group-1.png');
+    background-image: url('../images/MaskGroup-1.png');
     background-size: cover;
     height: 350px;
     margin-top: 0px;
@@ -362,7 +362,7 @@ body {
 }
 
 div-pt63t {
-    background-image: url('https://relate-av4mfw.s3.us-east-2.amazonaws.com/6013d61cec7a7e189f3e47a1/Mask%20Group-1.png');
+    background-image: url('../images/MaskGroup-1.png');
     background-size: cover;
     height: 200px;
 }
@@ -382,13 +382,13 @@ div-pt63t {
 
 .div-img2 {
     margin-top: 70px;
-    background-image: url('https://relate-av4mfw.s3.us-east-2.amazonaws.com/6013d61cec7a7e189f3e47a1/Mask%20Group.png');
+    background-image: url('../images/MaskGroup.png');
 }
 
 .section-4nxq9 {
     height: 360px;
     width: 90%;
-    background-image: url('https://relate-av4mfw.s3.us-east-2.amazonaws.com/6013d61cec7a7e189f3e47a1/feature.jpg');
+    background-image: url('../images/feature.jpg');
     margin-top: 200px;
     margin-right: 0px;
     margin-bottom: 0px;
@@ -466,7 +466,7 @@ div-pt63t {
 
 .div-tpmfp {
     width: 55%;
-    background-image: url('https://relate-av4mfw.s3.us-east-2.amazonaws.com/6013d61cec7a7e189f3e47a1/feature.png');
+    background-image: url('../images/feature.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -494,7 +494,7 @@ div-pt63t {
 }
 
 .future2_img {
-    background-image: url('https://relate-av4mfw.s3.us-east-2.amazonaws.com/6013d61cec7a7e189f3e47a1/cat.jpg');
+    background-image: url('../images/cat.jpg');
 }
 
 .section-yc0x3 {
@@ -554,7 +554,7 @@ div-pt63t {
     margin-top: 0px;
     margin-right: 0px;
     margin-left: auto;
-    background-image: url('https://relate-av4mfw.s3.us-east-2.amazonaws.com/6013d61cec7a7e189f3e47a1/lala-azizli-vj1g_0uNR1A-unsplash.jpg');
+    background-image: url('../images/lala-azizli-vj1g_0uNR1A-unsplash.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 1300px;
@@ -818,14 +818,14 @@ div-pt63t {
 .div-lb167 {
     height: 500px;
     width: 35%;
-    background-image: url('https://relate-av4mfw.s3.us-east-2.amazonaws.com/6013d61cec7a7e189f3e47a1/com_cat1.jpg');
+    background-image: url('../images/com_cat1.jpg');
     background-size: cover;
 }
 
 .div-kqie9 {
     height: 200px;
     width: 50%;
-    background-image: url('https://relate-av4mfw.s3.us-east-2.amazonaws.com/6013d61cec7a7e189f3e47a1/com_cat2.jpg');
+    background-image: url('../images/com_cat2.jpg');
 }
 
 .company-wrap {
@@ -842,7 +842,7 @@ div-pt63t {
 }
 
 .div-kqie9-2 {
-    background-image: url('https://relate-av4mfw.s3.us-east-2.amazonaws.com/6013d61cec7a7e189f3e47a1/com_cat3.jpg');
+    background-image: url('../images/com_cat3.jpg');
     background-position-y: center;
 }
 
@@ -969,7 +969,7 @@ div-pt63t {
     box-shadow: 0px 20px 40px 0 rgba(0, 0, 0, 0.15);
     max-width: 900px;
     background-repeat: repeat;
-    background-image: url('https://relate-av4mfw.s3.us-east-2.amazonaws.com/6013d61cec7a7e189f3e47a1/bg_wood.jpg');
+    background-image: url('../images/bg_wood.jpg');
     padding: 20px;
 }
 
@@ -1035,18 +1035,18 @@ div-pt63t {
 }
 
 .case-img2 {
-    background-image: url('https://relate-av4mfw.s3.us-east-2.amazonaws.com/6013d61cec7a7e189f3e47a1/IMG_7391.JPG');
+    background-image: url('../images/IMG_7391.JPG');
 }
 
 .div-jajx7 {
     width: 35%;
     height: 800px;
     background-position: center;
-    background-image: url('https://relate-av4mfw.s3.us-east-2.amazonaws.com/6013d61cec7a7e189f3e47a1/com_cat1.jpg');
+    background-image: url('../images/com_cat1.jpg');
 }
 
 .case-img3 {
-    background-image: url('/images/case3.jpg');
+    background-image: url('../images/case3.jpg');
 }
 
 .sp-menu-wrap{
