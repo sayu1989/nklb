@@ -1794,8 +1794,17 @@ div-pt63t {
     }
 
     .div-txs7x{
-        border-radius: 0;
-        margin-right: 30px;
+        margin: 0 auto;
+    }
+    
+    .div-chqcl{
+        width: 100%;
+        display: block;
+    }
+    
+    .div-uk79q{
+        margin: 0;
+        width: 100%;
     }
 
     .div-oyw8y{
@@ -1813,5 +1822,10 @@ div-pt63t {
     
     .case-other-item .case-other{
         width: 100%;
-    }    
+    }
+    
+    .case-other-img-i{
+        width: 100%;
+        height: auto;
+    }   
 }
